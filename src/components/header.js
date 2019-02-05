@@ -4,6 +4,7 @@ import React from "react"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 
+
 export default class Header extends React.Component {
 
 render() {
@@ -24,8 +25,9 @@ render() {
             <a className="nav-link js-scroll-trigger" href="./index.html#schedule">Events</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="./about.html">About</a>
+            <Link className="nav-link" to="/about/">About</Link>
           </li>
+
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="./index.html#join">Get Involved</a>
           </li>

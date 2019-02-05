@@ -5,7 +5,7 @@ import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 import Image from "../components/image"
 import SEO from "../components/seo"
-
+import About from "./about.js"
 
 
 const IndexPage = () => (
@@ -17,12 +17,12 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <div className="callout" style={{paddingTop: "40px"}}>
-              RESURRECTION ROLLER GIRLS
+              RESURRECTION ROLLER DERBY
             </div>
 
           </div>
           <div className="col-lg-8 mx-auto">
-            <img className="logo img-fluid" src="../img/logo_star.png"></img>
+            <img className="logo img-fluid" src={require('../img/logo_star.png')} />
            <a href="#schedule" className="nav-link js-scroll-trigger"><img src="../img/scrolldown.png" className="img-fluid"></img></a>
           </div>
         </div>
