@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
+import Navbar from 'react-bootstrap/Navbar';
 
 
 export default class Header extends React.Component {
@@ -22,23 +23,23 @@ render() {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="./index.html#schedule">Events</a>
+            <Link className="nav-link" to="/">Events</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/about/">About</Link>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="./index.html#join">Get Involved</a>
+            <Link className="nav-link" to="/">Get Involved</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="./sponsors.html">Sponsors</a>
+            <Link className="nav-link" to="./sponsors/">Sponsors</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="juniors.html">Juniors</a>
+            <Link className="nav-link" to="/juniors/">Juniors</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <Link className="nav-link" to="/">Contact</Link>
           </li>
         </ul>
       </div>

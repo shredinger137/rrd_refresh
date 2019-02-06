@@ -5,18 +5,19 @@ import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 import Image from "../components/image"
 import SEO from "../components/seo"
-import About from "./about.js"
 
 
-const IndexPage = () => (
+
+
+const Home = () => (
 
   <Layout>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
-    <header className="masthead text-center text-white d-flex h-100">
+    <header className="masthead text-center text-white d-flex mw-100 "  style={{height: "100vh"}}>
       <div className="container my-auto">
         <div className="row">
           <div className="col-lg-10 mx-auto">
-            <div className="callout" style={{paddingTop: "40px"}}>
+            <div className="callout" style={{marginTop: "1vw"}}>
               RESURRECTION ROLLER DERBY
             </div>
 
@@ -137,44 +138,8 @@ const IndexPage = () => (
       </div>
     </section>
 
-
-    <div id="contact" className="bg-dark ">
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-8 mx-auto text-center">
-            <h2 className="section-heading text-main mt-2">Contact Us</h2>
-            <hr className="my-3"></hr>
-            <p className="mb-4 text-main">Have questions? Just like to chat? Send us an email. We'll be happy to talk.</p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-4 mr-auto text-center text-main">
-            <i className="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
-            <p>
-              <a href="mailto:your-email@your-domain.com">info@rrgderby.org</a>
-            </p>
-          </div>
-      <div className="col-lg-4 mr-auto text-center">
-
-
-                        </div>
-
-              </div>
-            <div className="col-lg-4 mr-auto text-center">
-              <p className="text-main">Members: <a href="payments.html">Pay Dues</a></p>
-            </div>
-        </div>
-        <div className="row">
-          <div className="col-lg-12 mr-auto text-center pt-2">
-            <p className="text-main">Proud members of the <a href="http://wftda.com" target="_new">Women's Flat Track Roller Derby Association</a>. RRG is a 501c(3) nonprofit in the state of California.</p>
-          </div>
-        </div>
-      </div>
-
-
-
   </Layout>
 
 )
 
-export default IndexPage
+export default Home
