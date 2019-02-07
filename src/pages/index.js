@@ -11,18 +11,20 @@ const Home = () => (
 
   <Layout>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
-    <header className="masthead text-center text-white d-flex mw-100 "  style={{height: "100vh"}}>
+    <header className="masthead text-center text-white d-flex mw-100"  style={{height: "100vh"}}>
       <div className="container ">
-        <div className="row">
+        <div className="row" >
           <div className="col-lg-10 mx-auto">
-            <div className="callout" style={{marginTop: "1vw"}}>
+            <div className="callout" >
               RESURRECTION ROLLER DERBY
             </div>
 
           </div>
+        </div>
+        <div className="row h-50">
           <div className="col-lg-8 mx-auto">
             <img className="logo img-fluid" src={require('../img/logo_star.png')} />
-           <a href="#schedule" className="nav-link js-scroll-trigger"><img src="../img/scrolldown.png" className="img-fluid"></img></a>
+           <a href="#schedule" className="nav-link js-scroll-trigger"><img src={require('../img/scrolldown.png')} className="img-fluid"></img></a>
           </div>
         </div>
       </div>
@@ -106,10 +108,6 @@ const Home = () => (
 
               </div>
 
-          </div>
-          <div className="col-sm-auto mx-auto text-left position-relative">
-            <p className="text-main mb-4 main-text">
-              <img src="../img/boot_camp.jpg" className="text-center img-fluid"></img></p>
           </div>
         </div>
       </div>

@@ -229,8 +229,8 @@ img::-moz-selection {
 
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
+  padding-top: 15vh;
+  padding-bottom: 0;
   background-image: url("../img/scrd_back.jpg");
   background-position: center center;
   background-size: cover;
@@ -356,9 +356,22 @@ header.masthead p {
 .callout
 {
     font-family: 'Anton', sans-serif;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 
+@media only screen and (max-width: 800px){
+  .callout {
+    font-size: 10vw;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+  .callout {
+    font-size: 13vw;
+  }
+
+}
 .logo {
   max-width: 45%;
   height: auto;
