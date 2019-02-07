@@ -7,14 +7,12 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 
-
-
 const Home = () => (
 
   <Layout>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
     <header className="masthead text-center text-white d-flex mw-100 "  style={{height: "100vh"}}>
-      <div className="container my-auto">
+      <div className="container ">
         <div className="row">
           <div className="col-lg-10 mx-auto">
             <div className="callout" style={{marginTop: "1vw"}}>
