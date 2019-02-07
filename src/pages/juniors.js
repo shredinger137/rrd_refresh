@@ -15,14 +15,20 @@ const Sponsors = () => (
     <section id="about" class="secondSection">
       <div class="content-block">
         <div class="row">
-
-            <div class="col-sm-auto mx-auto text-left">
-            <hr class="light my-4"></hr>
-            <p class="text-main mb-4">
-            THIS IS JUNIORDOME <br></br>   </p> </div>
-            </div>
+          <div class="col-sm-auto mx-auto text-center">
+            <h2 class="section-heading text-white">Juniors</h2>
+          </div>
         </div>
-      </section>
+        <div class="row">
+          <div class="col-sm-auto mx-auto text-left">
+          <hr class="light my-4"></hr>
+          <p class="text-main mb-4">
+          DERBSDERBSDERBS <br></br>
+          </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </Layout>
 

@@ -30,7 +30,7 @@ const About = () => (
 
         <div class="row">
           <div class="col-sm-12 text-center">
-            <img src="img/group1.jpg" class="w-50" /><br></br><br></br><br></br>
+            <img src={require('../img/group1.jpg')} class="w-50" /><br></br><br></br><br></br>
           </div>
         </div>
 

@@ -23,14 +23,14 @@ render() {
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/">Events</Link>
+            <Link className="nav-link" to="/#schedule">Events</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/about/">About</Link>
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link" to="/">Get Involved</Link>
+            <Link className="nav-link" to="/#join">Get Involved</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="./sponsors/">Sponsors</Link>
