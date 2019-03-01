@@ -1,5 +1,3 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
@@ -27,9 +25,9 @@ render() {
             </p>
           </div>
       <div className="col-lg-4 mr-auto text-center">
-        <form action="https://resurrectionrollergirls.us17.list-manage.com/subscribe/post?u=9fd9953ee9186ce0be5282bc1&amp;id=b458913c77" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
+        <form action="https://resurrectionrollergirls.us17.list-manage.com/subscribe/post?u=9fd9953ee9186ce0be5282bc1&amp;id=b458913c77" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
           <h5 className="text-main">Subscribe to our mailing list!<br /></h5>
-          <label for="mce-EMAIL" className="text-main text-left">Enter Email Address </label>
+          <label htmlFor="mce-EMAIL" className="text-main text-left">Enter Email Address </label>
           <input type="email" name="EMAIL" id="mce-EMAIL" />
           <div id="mce-responses" className="clear">
             <div className="response" id="mce-error-response" style={{display: "None"}}></div>
@@ -37,7 +35,7 @@ render() {
           </div>
           {/* Dummy input for filthy botses; filling it in cancels submission */}
           <div style={{position: "absolute", left: "-5000px", ariaHidden: "True"}}>
-            <input type="text" name="b_9fd9953ee9186ce0be5282bc1_b458913c77" tabindex="-1" value="" /></div>
+            <input type="text" name="b_9fd9953ee9186ce0be5282bc1_b458913c77" tabIndex="-1" /></div>
             <div className="clear">
               <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button"/></div>
           </form>

@@ -3,7 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
-import Navbar from 'react-bootstrap/Navbar';
+import {Navbar, Nav} from 'react-bootstrap/Navbar';
+import {Toggle} from 'react-bootstrap/react-popper/lib/Navbar';
 
 
 export default class Header extends React.Component {
@@ -17,20 +18,20 @@ render() {
       <a className="nav-link" href="http://facebook.com/rrgderby" target="_new">FB</a>
       <a className="nav-link" href="http://instagram.com/resurrectionrollerderby" target="_new">IG</a>
       <a className="nav-link" href="https://twitter.com/rrgderby" target="_new">TWT</a>
-      <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/#schedule">Events</Link>
+            <Nav.Link className="nav-link" to="/">Events</Nav.Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/about/">About</Link>
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link" to="/#join">Get Involved</Link>
+            <Link className="nav-link" to="/">Get Involved</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="./sponsors/">Sponsors</Link>
@@ -43,6 +44,7 @@ render() {
           </li>
         </ul>
       </div>
+    </Navbar.Collapse>
     </div>
   </div>
 );
