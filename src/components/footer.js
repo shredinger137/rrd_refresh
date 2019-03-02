@@ -34,17 +34,16 @@ render() {
                         <form action="https://resurrectionrollergirls.us17.list-manage.com/subscribe/post?u=9fd9953ee9186ce0be5282bc1&amp;id=b458913c77" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
                           <div id="mc_embed_signup_scroll">
                           <h5 className="text-main">Subscribe to our mailing list!</h5>
-                        <div className="container">
+                        <div className="container text-left">
                           <label for="mce-EMAIL" className="text-main text-left">Email Address </label>
-                          <input type="email" value="" name="EMAIL" id="mce-EMAIL" />
+                          <input type="email" value="Enter Email" name="EMAIL" id="mce-EMAIL" />
                         </div>
                           <div id="mce-responses" className="clear">
                             <div className="response" id="mce-error-response" style={{display: "none"}}></div>
                             <div className="response" id="mce-success-response" style={{display: "none"}}></div>
                           </div>
-                          //input for tricking tricksy botses; submissions with it filled in won't work
-                            <div style={{position: "absolute", left: "-5000px", ariaHidden: "true"}}><input type="text" name="b_9fd9953ee9186ce0be5282bc1_b458913c77" tabindex="-1" value="" /></div>
-                            <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
+
+                            <div className="clear text-left"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="button" /></div>
                             </div>
                         </form>
                         </div>

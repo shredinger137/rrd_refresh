@@ -33,13 +33,13 @@ render() {
             <Link className="nav-link" to="/#join">Get Involved</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="./sponsors/">Sponsors</Link>
+            <Link className="nav-link" to="/sponsors/">Sponsors</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/juniors/">Juniors</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/">Contact</Link>
+            <Link className="nav-link" to="/#contact">Contact</Link>
           </li>
         </ul>
       </div>
