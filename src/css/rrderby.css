@@ -256,6 +256,20 @@ header.masthead p {
   font-weight: 300;
 }
 
+.menu-text {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #C8C8C8;;
+}
+
+.menu-text:hover{
+  color: #F05F40;
+}
+.menu-text > a.nav-link:hover,
+.menu-text > a.nav-link:focus:hover {
+  color: #f05f40;
+}
 
 .service-box {
   max-width: 400px;
