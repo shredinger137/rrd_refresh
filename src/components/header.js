@@ -1,51 +1,57 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from 'react';
+import { Link } from 'gatsby';
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
-import {Navbar, Nav} from 'react-bootstrap/Navbar';
-import {Toggle} from 'react-bootstrap/react-popper/lib/Navbar';
 
+class Header extends React.Component {
+  menuToggleClick = () => {
+    document.body.classList.toggle('open');
+  };
 
-export default class Header extends React.Component {
+  menuHideClick = () => {
+    document.body.classList.remove('open');
+  };
 
-render() {
-  return (
+  render() {
+    return (
+        <div class="row">
+          <nav className="header-nav-wrap">
+            <ul className="header-main-nav" onClick={() => this.menuHideClick()}>
+              <li className="nav-item">
+                <Link className="nav-link" to="/#schedule">Events</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/about/">About</Link>
+              </li>
 
+              <li className="nav-item">
+                <Link className="nav-link" to="/#join">Get Involved</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="./sponsors/">Sponsors</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/juniors/">Juniors</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/">Contact</Link>
+              </li>
+            </ul>
 
-  <div className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style={{backgroundColor: "#2e2e2e"}}>
-    <div className="container">
-      <a className="nav-link" href="http://facebook.com/rrgderby" target="_new">FB</a>
-      <a className="nav-link" href="http://instagram.com/resurrectionrollerderby" target="_new">IG</a>
-      <a className="nav-link" href="https://twitter.com/rrgderby" target="_new">TWT</a>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+            <a href="https://www.brownpapertickets.com/event/4044964" target="_blank" rel="noopener noreferrer"
+              className="button button-primary cta">
+              Buy Tickets
+            </a>
+          </nav>
 
-      <div className="collapse navbar-collapse" id="navbarResponsive">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <Nav.Link className="nav-link" to="/">Events</Nav.Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/about/">About</Link>
-          </li>
+          <button
+            className="header-menu-toggle"
+            onClick={() => this.menuToggleClick()}>
+            <span>Menu</span>
+          </button>
+        </div>
+    );
+  }
+}
 
-          <li className="nav-item">
-            <Link className="nav-link" to="/">Get Involved</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="./sponsors/">Sponsors</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/juniors/">Juniors</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/">Contact</Link>
-          </li>
-        </ul>
-      </div>
-    </Navbar.Collapse>
-    </div>
-  </div>
-);
-}}
+export default Header;

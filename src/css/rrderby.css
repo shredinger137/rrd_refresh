@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Lato');
-
+@import '../components/header.scss';
 
 body,
 html {
