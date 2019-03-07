@@ -22,10 +22,10 @@ class Header extends React.Component {
               <img src={require('../img/facebook.png')} className="social-icon"/>
             </a>
             <a href="http://instagram.com/resurrectionrollerderby" target="_new">
-              <img src={require('../img/instagram.png')} className="social-icon"/>
+              <img src={require('../img/instagram.png')} className="social-icon" />
             </a>
             <a href="https://twitter.com/rrgderby" target="_new">
-              <img src={require('../img/twitter.png')} className="social-icon"/>
+              <img src={require('../img/twitter.png')} className="social-icon" />
             </a>
           </div>
 
