@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 
+
 class Header extends React.Component {
   menuToggleClick = () => {
     document.body.classList.toggle('open');
@@ -14,14 +15,22 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className="header"style={{backgroundColor: "#2e2e2e"}}>
+      <header className="header">
+        <div class="row">
+          <div className="social">
+            <a href="http://facebook.com/rrgderby" target="_new">
+              <img src={require('../img/facebook.png')} className="social-icon"/>
+            </a>
+            <a href="http://instagram.com/resurrectionrollerderby" target="_new">
+              <img src={require('../img/instagram.png')} className="social-icon"/>
+            </a>
+            <a href="https://twitter.com/rrgderby" target="_new">
+              <img src={require('../img/twitter.png')} className="social-icon"/>
+            </a>
+          </div>
 
-          <nav className="header-nav-wrap">
-            <ul className="header-main-nav text-left">
-                <li><a className="nav-link" href="http://facebook.com/rrgderby" target="_new">FB</a></li>
-                <li><a className="nav-link" href="http://instagram.com/resurrectionrollerderby" target="_new">IG</a></li>
-                <li><a className="nav-link" href="https://twitter.com/rrgderby" target="_new">TWT</a></li>
-              </ul>
+
+              <nav className="header-nav-wrap">
             <ul className="header-main-nav" onClick={() => this.menuHideClick()}>
               <li >
                 <Link className="menu-text" to="/#schedule">Events</Link>
@@ -55,7 +64,7 @@ class Header extends React.Component {
             onClick={() => this.menuToggleClick()}>
             <span>Menu</span>
           </button>
-
+          </div>
       </header>
     );
   }

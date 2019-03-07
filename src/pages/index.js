@@ -5,6 +5,7 @@ import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Footer from "../components/footer"
 
 
 const Home = () => (

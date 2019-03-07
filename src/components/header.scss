@@ -6,28 +6,21 @@
 .header {
   width: 100%;
   height: 72px;
-  background-color: rgba($ui-dark, 0.9);
+  background-color: #2e2e2e;
   position: fixed;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  z-index: 501;
   border-radius: 2px;
+  z-index: 999;
 }
 
 .header .row {
   position: relative;
 }
 
-/* -------------------------------------------------------------------
-   * header logo - (_site-layout.css)
-   * ------------------------------------------------------------------- */
 
-.header-logo {
+.social {
   position: absolute;
-  left: 8px;
-  top: 10px;
+  left: 20vw;
+  top: 20px;
   transition: all 1s ease-in-out;
   z-index: 501;
 
@@ -35,6 +28,13 @@
     left: 16px;
   }
 }
+
+
+.social-icon {
+   max-width: 40px;
+   padding: 5px 5px 5px 5px;
+}
+
 
 .header-logo a {
   display: flex;
@@ -54,17 +54,7 @@
   font-family: 'montserrat-regular', sans-serif;
 }
 
-.header-logo a img {
-  height: 50px;
-  width: auto;
-  margin-right: 1rem;
-
-  @include breakpoint('md') {
-    margin-right: 2rem;
-  }
-}
-
-.header-logo span {
+.social span {
   font-size: 16px;
   white-space: nowrap;
   display: flex;
@@ -246,6 +236,8 @@ button.header-menu-toggle.is-clicked span::after {
 @media only screen and (max-width: 768px) {
   .open .header-nav-wrap {
     display: block;
+    background-color: #2e2e2e;
+
   }
   .header-nav-wrap {
     display: none;
