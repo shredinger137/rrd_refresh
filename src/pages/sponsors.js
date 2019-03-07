@@ -12,13 +12,13 @@ const Sponsors = () => (
 
   <Layout>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
-    <section id="about" class="secondSection">
-      <div class="content-block">
-        <div class="row">
-        
-            <div class="col-sm-auto mx-auto text-left">
-            <hr class="light my-4"></hr>
-            <p class="text-main mb-4">
+    <section id="about" className="secondSection">
+      <div className="content-block">
+        <div className="row">
+
+            <div className="col-sm-auto mx-auto text-left">
+            <hr className="light my-4"></hr>
+            <p className="text-main mb-4">
             THIS IS SPONSORDOME <br></br>   </p> </div>
             </div>
         </div>
