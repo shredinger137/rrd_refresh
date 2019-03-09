@@ -36,41 +36,6 @@
 }
 
 
-.header-logo a {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  border: none;
-  text-shadow: none;
-  color: $text-inverse;
-  transition: all 0.5s ease-in-out;
-  text-decoration: none;
-  font-size: 2.2rem;
-  line-height: 1.5;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  font-weight: bold;
-  font-family: 'montserrat-regular', sans-serif;
-}
-
-.social span {
-  font-size: 16px;
-  white-space: nowrap;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-
-  @include breakpoint('md') {
-    font-size: 24px;
-  }
-}
-
-/* -------------------------------------------------------------------
-   * menu trigger - (_site-layout.css)
-   * ------------------------------------------------------------------- */
-
 button.header-menu-toggle {
   background: transparent;
   border-radius: 0;
@@ -91,11 +56,6 @@ button.header-menu-toggle {
   color: rgba($ui-light, 0.5);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
-
-button.header-menu-toggle:hover,
-button.header-menu-toggle:focus {
-  color: $text-inverse;
 }
 
 button.header-menu-toggle span {
@@ -287,9 +247,6 @@ button.header-menu-toggle.is-clicked span::after {
   }
 }
 
-/* -------------------------------------------------------------------
-   * make sure the menu is visible on larger screens
-   * ------------------------------------------------------------------- */
 
 @media only screen and (min-width: 769px) {
   .header-nav-wrap {
