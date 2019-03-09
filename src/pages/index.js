@@ -5,11 +5,26 @@ import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Footer from "../components/footer"
 
 
-const Home = () => (
+export default class Home extends React.Component {
 
+  getSectionRef = el => {
+      this.sectionRef = el;
+    }
+
+    onButtonClick = e => {
+    if (this.sectionRef) {
+      window.scrollTo({
+        top: this.sectionRef.offsetTop,
+        behavior: 'smooth',
+      });
+    }
+}
+
+
+  render() {
+    return (
   <Layout>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
     <header className="masthead text-center text-white d-flex mw-100"  style={{height: "100vh"}}>
@@ -24,14 +39,18 @@ const Home = () => (
         </div>
         <div className="row h-50">
           <div className="col-lg-8 mx-auto">
-            <img className="logo img-fluid" src={require('../img/logo_star.png')} />
-           <a href="#schedule" className="nav-link js-scroll-trigger"><img src={require('../img/scrolldown.png')} className="img-fluid"></img></a>
+            <img className="logo img-fluid" src={require('../img/logo_star.png')} /><br />
+            <img src={require('../img/scrolldown.png')} className="img-fluid" onClick={this.onButtonClick} style={{cursor: "pointer"}} />
+
+
+
           </div>
         </div>
       </div>
     </header>
 
-    <section className="firstSection" id="schedule">
+    <section className="firstSection" id="schedule" ref={this.getSectionRef}>
+    <div>
       <div className="content-block">
         <div className="row">
           <div className="col-sm-auto mx-auto text-center">
@@ -112,6 +131,7 @@ const Home = () => (
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <section id="join" className="secondSection">
@@ -138,5 +158,4 @@ const Home = () => (
 
   </Layout>
 )
-
-export default Home
+}}
