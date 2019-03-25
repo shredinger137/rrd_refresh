@@ -1,20 +1,32 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Events from "../components/events"
+import { graphql, Link } from 'gatsby';
+
+
+var contentful = require('contentful')
+const client = contentful.createClient({
+  space: "ypg5e55nvkzw",
+  accessToken: "d19e22db369e56f049bf26444c1dc498e96fc8aad369b9fc87ba54b90c7fba3b"
+})
 
 
 export default class Home extends React.Component {
 
-  getSectionRef = el => {
+
+getContentful = () => {client.getEntry('6W8I71USqy1hbYPQFzxNiu')
+.then((entry) => console.log(entry))
+.catch(console.error)
+}
+
+getSectionRef = el => {
       this.sectionRef = el;
     }
 
-    onButtonClick = e => {
+  onButtonClick = e => {
     if (this.sectionRef) {
       window.scrollTo({
         top: this.sectionRef.offsetTop,
@@ -23,9 +35,9 @@ export default class Home extends React.Component {
     }
 }
 
-
   render() {
     return (
+
   <Layout>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
     <header className="masthead text-center text-white d-flex mw-100"  style={{height: "100vh"}}>
@@ -33,15 +45,16 @@ export default class Home extends React.Component {
         <div className="row" >
           <div className="col-lg-10 mx-auto">
             <div className="callout" >
+              {this.getContentful}
               RESURRECTION ROLLER DERBY
-            </div>
+              </div>
 
           </div>
         </div>
         <div className="row h-50">
           <div className="col-lg-8 mx-auto">
-            <img className="logo img-fluid" src={require('../img/logo_star.png')} /><br />
-            <img src={require('../img/scrolldown.png')} className="img-fluid" onClick={this.onButtonClick} style={{cursor: "pointer"}} />
+            <img className="logo img-fluid" src={require('../img/logo_star.png')} alt="Resurrection Roller Derby Star Logo"/><br />
+            <img src={require('../img/scrolldown.png')} className="img-fluid" onClick={this.onButtonClick} style={{cursor: "pointer"}} alt="Down Arrow"/>
           </div>
         </div>
       </div>
@@ -61,7 +74,7 @@ export default class Home extends React.Component {
             <p className="text-main">Our league of athletes, officials and volunteers call <a href="https://goo.gl/maps/PPMmMPAutmG2" target="_new">Cal Skate of Rohnert Park</a> home. That's where you'll find all of our home games and training events. We'd love to have you join us.</p>
           </div>
           <div className="content-partial2 ">
-          
+
             <Events></Events>
 
           </div>
@@ -87,6 +100,7 @@ export default class Home extends React.Component {
               <br></br><br></br>
             Volunteers: Playing Derby isn't the only way to get involved. Volunteers work behind the scenes to make this league possible. These include referees, non-skating officials (NSOs) and support staff of all kinds. We are always looking for volunteers to help with all of our projects - marketing, bout production, event coordination and more. Send us an email if you'd like to get involved at any level. We'd love to hear from you!
             </p>
+
 
           </div>
         </div>

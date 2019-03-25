@@ -1,11 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
-import Image from "../components/image"
 import SEO from "../components/seo"
-
 
 
 const About = () => (
@@ -30,7 +27,7 @@ const About = () => (
 
         <div className="row">
           <div className="col-sm-12 text-center">
-            <img src={require('../img/group1.jpg')} className="w-50" /><br></br><br></br><br></br>
+            <img src={require('../img/group1.jpg')} className="w-50" alt="Team"/><br></br><br></br><br></br>
           </div>
         </div>
 
@@ -62,10 +59,10 @@ const About = () => (
 
         <div className="row">
           <div className="col-sm-6 text-center">
-            <img src={require('../img/blood.jpg')} className="img-fluid" />
+            <img src={require('../img/blood.jpg')} className="img-fluid" alt="Blood drive" />
           </div>
           <div className="col-sm-6 text-center">
-            <img src={require('../img/cotatitarod.jpg')} className="img-fluid" />
+            <img src={require('../img/cotatitarod.jpg')} className="img-fluid" alt="Cotatiarod"/>
           </div>
         </div>
         <div className="row">

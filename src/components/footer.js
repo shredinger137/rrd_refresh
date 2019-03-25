@@ -1,7 +1,6 @@
 import React from "react"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
-import Navbar from 'react-bootstrap/Navbar';
 
 
 export default class Footer extends React.Component {
@@ -25,7 +24,7 @@ render() {
             </p>
           </div>
       <div className="col-lg-4 mr-auto text-center">
-        <form action="https://resurrectionrollergirls.us17.list-manage.com/subscribe/post?u=9fd9953ee9186ce0be5282bc1&amp;id=b458913c77" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+        <form action="https://resurrectionrollergirls.us17.list-manage.com/subscribe/post?u=9fd9953ee9186ce0be5282bc1&amp;id=b458913c77" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" rel="noopener noreferrer" noValidate>
           <h5 className="text-main">Subscribe to our mailing list!<br /></h5>
           <label htmlFor="mce-EMAIL" className="text-main text-left">Enter Email Address </label>
           <input type="email" name="EMAIL" id="mce-EMAIL" />

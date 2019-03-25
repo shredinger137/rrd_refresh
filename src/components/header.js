@@ -16,16 +16,16 @@ class Header extends React.Component {
   render() {
     return (
       <header className="header">
-        <div class="row">
+        <div className="row">
           <div className="social">
-            <a href="http://facebook.com/rrgderby" target="_new">
-              <img src={require('../img/facebook.png')} className="social-icon"/>
+            <a href="http://facebook.com/rrgderby" target="_new" rel="noopener noreferrer">
+              <img src={require('../img/facebook.png')} className="social-icon" alt="Facebook Icon"/>
             </a>
-            <a href="http://instagram.com/resurrectionrollerderby" target="_new">
-              <img src={require('../img/instagram.png')} className="social-icon" />
+            <a href="http://instagram.com/resurrectionrollerderby" target="_new" rel="noopener noreferrer">
+              <img src={require('../img/instagram.png')} className="social-icon" alt="Instagram Icon"/>
             </a>
-            <a href="https://twitter.com/rrgderby" target="_new">
-              <img src={require('../img/twitter.png')} className="social-icon" />
+            <a href="https://twitter.com/rrgderby" target="_new" rel="noopener noreferrer">
+              <img src={require('../img/twitter.png')} className="social-icon" alt="Twitter Icon"/>
             </a>
           </div>
 
@@ -52,8 +52,7 @@ class Header extends React.Component {
                 <Link className="menu-text" to="/">Contact</Link>
               </li>
               <li className="nav-item">
-                <a href="https://www.brownpapertickets.com/" target="_blank"
-                  className="menu-text">
+                <a href="https://www.brownpapertickets.com/" target="_blank" rel="noopener noreferrer" className="menu-text">
                   Buy Tickets
                 </a>
               </li>
