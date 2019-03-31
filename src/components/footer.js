@@ -1,6 +1,7 @@
 import React from "react"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
+import { Link } from 'gatsby';
 
 
 export default class Footer extends React.Component {
@@ -40,7 +41,7 @@ render() {
           </form>
         </div>
           <div className="col-lg-4 mr-auto text-center">
-            <p className="text-main">Members: <a href="payments.html">Pay Dues</a></p>
+            <p className="text-main">Members: <Link to="/payments/">Pay Dues</Link></p>
           </div>
         </div>
         <div className="row">

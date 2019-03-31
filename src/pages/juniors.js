@@ -6,30 +6,46 @@ import SEO from "../components/seo"
 
 
 
-const Sponsors = () => (
+const Juniors = () => (
 
   <Layout>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
-    <section id="about" className="secondSection">
-      <div className="content-block">
-        <div className="row">
-          <div className="col-sm-auto mx-auto text-center">
-            <h2 className="section-heading text-white">Juniors</h2>
-          </div>
-        </div>
-        <div className="row">
+    <section id="juniors" className="juniors">
+    <div className="content-block">
+      <div className="row">
+        <div className="col-sm-auto mx-auto text-center">
+          <h2 className="section-heading text-white">Juniors</h2> </div>
           <div className="col-sm-auto mx-auto text-left">
-          <hr className="light my-4"></hr>
+          <hr className="light my-4" />
           <p className="text-main mb-4">
-          DERBSDERBSDERBS <br></br>
+            Resurrection Roller Girls is proud to host our Junior Roller Derby League, offering opportunities for skaters age 7 - 17. Anyone with a desire to learn is welcome to join, regardless of experience. Our mission is to develop athletic ability, teamwork skills and sportsmanship for Sonoma County youth. We offer the only junior derby program in the North Bay area. 10 week sessions will be offered throughout the year.
+            <br /><br />
+            <strong>Next session: April 2nd - June 4th<br /></strong>
+            Pricing: $175 for new sign ups (includes jersey and insurance), $115 for returning skates (already have jersey and insurance). Scholarships to help with fees may be available- <a href="mailto:info@rrderby.org">contact us</a> for details.<br />
+            <br />All practices take place at Cal Skate of Rohnert Park on Tuesdays, from 6:00pm to 7:30pm.
+            <br /><br />
+            Skates will be provided at no additional charge. Skaters will have to provide and wear all appropriate safety gear- that means mouth guards, helmets, knee pads, elbow pads and wrist guards. Equipment can be purchased at Cal Skate's pro shop. Contact us for details.
+            <br /><br />
+            <strong><a href="./signup.html">Click here to sign up for the April 2nd - June 4th session.</a></strong>
+            <br /><br />
           </p>
           </div>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-12 text-center">
+              <figure>
+                <img src={require('../img/juniors_team.jpg')} className="img-fluid mx-auto" alt="Junior Roller Derby"/>
+                <p><br /><br /></p>
+              </figure>
+            </div>
+          <div className="row"><p><br /><br /></p></div>
         </div>
       </div>
-    </section>
+  </section>
 
   </Layout>
 
 )
 
-export default Sponsors
+export default Juniors

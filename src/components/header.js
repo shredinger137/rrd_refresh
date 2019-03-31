@@ -49,10 +49,10 @@ class Header extends React.Component {
                 <Link className="menu-text" to="/juniors/">Juniors</Link>
               </li>
               <li className="nav-item">
-                <Link className="menu-text" to="/">Contact</Link>
+                <a href="#contact" className="menu-text">Contact</a>
               </li>
               <li className="nav-item">
-                <a href="https://www.brownpapertickets.com/" target="_blank" rel="noopener noreferrer" className="menu-text">
+                <a href="https://www.brownpapertickets.com/producer/43834" target="_blank" rel="noopener noreferrer" className="menu-text">
                   Buy Tickets
                 </a>
               </li>

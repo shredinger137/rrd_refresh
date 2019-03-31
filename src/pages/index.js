@@ -4,23 +4,12 @@ import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 import SEO from "../components/seo"
 import Events from "../components/events"
-import { graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 
-
-var contentful = require('contentful')
-const client = contentful.createClient({
-  space: "ypg5e55nvkzw",
-  accessToken: "d19e22db369e56f049bf26444c1dc498e96fc8aad369b9fc87ba54b90c7fba3b"
-})
 
 
 export default class Home extends React.Component {
 
-
-getContentful = () => {client.getEntry('6W8I71USqy1hbYPQFzxNiu')
-.then((entry) => console.log(entry))
-.catch(console.error)
-}
 
 getSectionRef = el => {
       this.sectionRef = el;
@@ -45,7 +34,6 @@ getSectionRef = el => {
         <div className="row" >
           <div className="col-lg-10 mx-auto">
             <div className="callout" >
-              {this.getContentful}
               RESURRECTION ROLLER DERBY
               </div>
 
@@ -76,7 +64,9 @@ getSectionRef = el => {
           <div className="content-partial2 ">
 
             <Events></Events>
-
+            <br />
+              <p class="text-main text-left"><strong>Season pass tickets available now: <a href="https://www.brownpapertickets.com/event/4094543" target="_new">click here to purchase.</a></strong></p>
+              <br /><br />
           </div>
 
           </div>
@@ -94,7 +84,7 @@ getSectionRef = el => {
             <hr className="light my-4"></hr>
             <p className="text-main mb-4">
 
-            New Skaters: New skaters get involved by attending one of our regularly offered two week Boot Camps or our Newbie Night training sessions. These take place every Tuesday at Cal Skate in Rohnert Park, starting at 7:30 pm. Your first one is free, so if you're curious please come visit us. Our skaters are always happy to talk. Loaner gear and skates are available at no charge. Just bring comfortable clothes, a water bottle and yourself. <a href="./newskaters.html">Click here</a> to learn more.
+            New Skaters: New skaters get involved by attending one of our regularly offered two week Boot Camps or our Newbie Night training sessions. These take place every Tuesday at Cal Skate in Rohnert Park, starting at 7:30 pm. Your first one is free, so if you're curious please come visit us. Our skaters are always happy to talk. Loaner gear and skates are available at no charge. Just bring comfortable clothes, a water bottle and yourself.  <Link to="/newskaters/">Click here</Link> to learn more.
             <br></br><br></br>
             Transferring Skaters: If you've been skating with another league, transferring to RRG is usually as easy as asking. We don't require anything from your previous league, but may request verification of past rostering and minimum skills competency. Please contact us directly for details.
               <br></br><br></br>
