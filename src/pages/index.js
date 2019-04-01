@@ -5,6 +5,7 @@ import '../css/rrderby.css'
 import SEO from "../components/seo"
 import Events from "../components/events"
 import { Link } from 'gatsby';
+import ImportStuff from '../components/import-getinvolved.js';
 
 
 
@@ -35,6 +36,7 @@ getSectionRef = el => {
           <div className="col-lg-10 mx-auto">
             <div className="callout" >
               RESURRECTION ROLLER DERBY
+              <ImportStuff />
               </div>
 
           </div>
@@ -59,7 +61,7 @@ getSectionRef = el => {
           <div className="content-partial text-left">
             <div className="text-main loud-text">Skate fast. Hit hard.</div>
             <p className="text-main medium-loud">Sonoma County flat track roller derby.</p>
-            <p className="text-main">Our league of athletes, officials and volunteers call <a href="https://goo.gl/maps/PPMmMPAutmG2" target="_new">Cal Skate of Rohnert Park</a> home. That's where you'll find all of our home games and training events. We'd love to have you join us.</p>
+            <p className="text-main">Our league of athletes, officials and volunteers call <a href="https://goo.gl/maps/PPMmMPAutmG2" target="_new">Cal Skate of Rohnert Park</a> home. That's where you'll find all of our home games and training events. We&#39;d love to have you join us.</p>
           </div>
           <div className="content-partial2 ">
 
@@ -88,7 +90,7 @@ getSectionRef = el => {
             <br></br><br></br>
             Transferring Skaters: If you've been skating with another league, transferring to RRG is usually as easy as asking. We don't require anything from your previous league, but may request verification of past rostering and minimum skills competency. Please contact us directly for details.
               <br></br><br></br>
-            Volunteers: Playing Derby isn't the only way to get involved. Volunteers work behind the scenes to make this league possible. These include referees, non-skating officials (NSOs) and support staff of all kinds. We are always looking for volunteers to help with all of our projects - marketing, bout production, event coordination and more. Send us an email if you'd like to get involved at any level. We'd love to hear from you!
+            Volunteers: Playing Derby isn't the only way to get involved. Volunteers work behind the scenes to make this league possible. These include referees, non-skating officials (NSOs) and support staff of all kinds. We are always looking for volunteers to help with all of our projects - marketing, bout production, event coordination and more. Send us an email if you'd like to get involved at any level. We&#39;d love to hear from you!
             </p>
 
 
