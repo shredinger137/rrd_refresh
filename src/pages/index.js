@@ -5,8 +5,8 @@ import '../css/rrderby.css'
 import SEO from "../components/seo"
 import Events from "../components/events"
 import { Link } from 'gatsby';
-import ImportStuff from '../components/import-getinvolved.js';
-import Client from '../components/client'
+import Client from "../components/client" 
+
 
 
 
@@ -86,7 +86,7 @@ getSectionRef = el => {
             <div className="col-sm-auto mx-auto text-left">
             <hr className="light my-4"></hr>
             <p className="text-main mb-4">
-              <ImportStuff />
+
             New Skaters: New skaters get involved by attending one of our regularly offered two week Boot Camps or our Newbie Night training sessions. These take place every Tuesday at Cal Skate in Rohnert Park, starting at 7:30 pm. Your first one is free, so if you're curious please come visit us. Our skaters are always happy to talk. Loaner gear and skates are available at no charge. Just bring comfortable clothes, a water bottle and yourself.  <Link to="/newskaters/">Click here</Link> to learn more.
             <br></br><br></br>
             Transferring Skaters: If you've been skating with another league, transferring to RRG is usually as easy as asking. We don't require anything from your previous league, but may request verification of past rostering and minimum skills competency. Please contact us directly for details.
