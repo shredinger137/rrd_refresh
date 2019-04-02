@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Resurrection Roller Derby`,
@@ -34,6 +38,7 @@ module.exports = {
         accessToken: `d19e22db369e56f049bf26444c1dc498e96fc8aad369b9fc87ba54b90c7fba3b`,
       },
     },
+
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline

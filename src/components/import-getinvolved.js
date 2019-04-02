@@ -1,5 +1,8 @@
 import React from 'react'
 import * as contentful from 'contentful'
+import BlogItem from '../components/blogItem'
+
+
 class ImportStuff extends React.Component {
 
   state = {
@@ -18,16 +21,14 @@ class ImportStuff extends React.Component {
       posts: response.items
     })
   }
+
   render() {
-    return ( <div>
-      <p>This is the Blog Page</p>
-      <br/>
-      <p class="text-main medium-loud">
-      { this.state.posts.map(({fields}, i) =>
-        <pre key={i}>{JSON.stringify(fields, null, 4)}</pre>
-      )}
-      </p>
-    </div>
+    return (
+      <div>
+        { this.state.posts.map(({fields}, i) =>
+          <BlogItem key={i} {...fields} />
+        )}
+      </div>
     )
   }
 }
