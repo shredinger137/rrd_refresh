@@ -17,6 +17,7 @@
 		'git submodule sync',
 		'git submodule update',
 		'git submodule status',
+		'gatsby build',
 	);
 	// Run the commands for output
 	$output = '';
