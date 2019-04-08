@@ -5,7 +5,7 @@ import '../css/rrderby.css'
 import SEO from "../components/seo"
 import Events from "../components/events"
 import { Link } from 'gatsby';
-import get from 'lodash/get';
+import GetInvolved from "../components/getinvolved";
 
 
 export default class Home extends React.Component {
@@ -28,8 +28,6 @@ getSectionRef = el => {
 
   render() {
 
-    const pagetext = get(this, 'props.data.allContentfulPageText.edges');
-
 
     return (
 
@@ -41,7 +39,6 @@ getSectionRef = el => {
           <div className="col-lg-10 mx-auto">
             <div className="callout" >
               RESURRECTION ROLLER DERBY
-              {console.log(pagetext)}
               </div>
 
           </div>
@@ -97,7 +94,7 @@ getSectionRef = el => {
               <br></br><br></br>
             Volunteers: Playing Derby isn't the only way to get involved. Volunteers work behind the scenes to make this league possible. These include referees, non-skating officials (NSOs) and support staff of all kinds. We are always looking for volunteers to help with all of our projects - marketing, bout production, event coordination and more. Send us an email if you'd like to get involved at any level. We&#39;d love to hear from you!
             </p>
-
+            <GetInvolved />
 
           </div>
         </div>
@@ -109,18 +106,3 @@ getSectionRef = el => {
 )
 
 }}
-
-export const testQuery = graphql`
-  query testQuery {
-    allContentfulPageText(filter:{name:{eq:"get_involved"}})
-    {
-      edges {
-        node {
-          content {
-            content
-          }
-        }
-      }
-    }
-  }
-`
