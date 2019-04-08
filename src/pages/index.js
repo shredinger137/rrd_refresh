@@ -5,6 +5,7 @@ import '../css/rrderby.css'
 import SEO from "../components/seo"
 import Events from "../components/events"
 import { Link } from 'gatsby';
+import get from 'lodash/get';
 
 
 export default class Home extends React.Component {
@@ -23,7 +24,13 @@ getSectionRef = el => {
     }
 }
 
+
+
   render() {
+
+    const pagetext = get(this, 'props.data.allContentfulPageText.edges');
+
+
     return (
 
   <Layout>
@@ -34,7 +41,7 @@ getSectionRef = el => {
           <div className="col-lg-10 mx-auto">
             <div className="callout" >
               RESURRECTION ROLLER DERBY
-
+              {console.log(pagetext)}
               </div>
 
           </div>
@@ -65,7 +72,7 @@ getSectionRef = el => {
 
             <Events></Events>
             <br />
-              <p class="text-main text-left"><strong>Season pass tickets available now: <a href="https://www.brownpapertickets.com/event/4094543" target="_new">click here to purchase.</a></strong></p>
+              <p className="text-main text-left"><strong>Season pass tickets available now: <a href="https://www.brownpapertickets.com/event/4094543" target="_new">click here to purchase.</a></strong></p>
               <br /><br />
           </div>
 
