@@ -38,7 +38,7 @@ getSectionRef = el => {
         <div className="row" >
           <div className="col-lg-10 mx-auto">
             <div className="callout" >
-              RESURRECTION ROLLER DERBYTESTdeploy
+              RESURRECTION ROLLER DERBYdeploy
               </div>
 
           </div>
