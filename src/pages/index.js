@@ -5,9 +5,6 @@ import '../css/rrderby.css'
 import SEO from "../components/seo"
 import Events from "../components/events"
 import { Link } from 'gatsby';
-import Client from "../components/client" 
-
-
 
 
 export default class Home extends React.Component {
@@ -103,4 +100,20 @@ getSectionRef = el => {
 
   </Layout>
 )
+
 }}
+
+export const testQuery = graphql`
+  query testQuery {
+    allContentfulPageText(filter:{name:{eq:"get_involved"}})
+    {
+      edges {
+        node {
+          content {
+            content
+          }
+        }
+      }
+    }
+  }
+`

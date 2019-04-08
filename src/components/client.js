@@ -4,16 +4,16 @@ import * as contentful from 'contentful'
 
 
 export const pageQuery = graphql`
-    query pageQuery {
-      allContentfulPageText {
-        edges {
-          node {
-            name
-            content {
-              content
-            }
+  query pageQuery {
+    allContentfulPageText(filter:{name:{eq:"get_involved"}})
+    {
+      edges {
+        node {
+          content {
+            content
           }
         }
       }
     }
-    `
+  }
+`
