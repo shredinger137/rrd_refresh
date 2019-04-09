@@ -26,7 +26,7 @@ const Juniors = () => (
             <br /><br />
             Skates will be provided at no additional charge. Skaters will have to provide and wear all appropriate safety gear- that means mouth guards, helmets, knee pads, elbow pads and wrist guards. Equipment can be purchased at Cal Skate's pro shop. Contact us for details.
             <br /><br />
-            <strong><a href="./signup.html">Click here to sign up for the April 2nd - June 4th session.</a></strong>
+            <strong>The current session is now in progress. <a href="mailto:info@rrderby.org">Email us</a> if you'd like to get involved.</strong>
             <br /><br />
           </p>
           </div>
