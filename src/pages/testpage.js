@@ -9,9 +9,9 @@ import GetEvents from "../components/getevents"
 
 const Testpage = () => (
 
-  <Layout>
+  <div>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
-    <section id="juniors" className="juniors">
+    <section>
       <div className="content-block">
       <div className="row">
         <div className="col-sm-auto mx-auto text-center">
@@ -25,7 +25,7 @@ const Testpage = () => (
         </div>
   </section>
 
-  </Layout>
+  </div>
 
 )
 
