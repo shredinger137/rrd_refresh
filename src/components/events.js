@@ -44,6 +44,12 @@ render() {
           <td></td>
         </tr>
         <tr>
+          <td>Boot Camp</td>
+          <td>Home</td>
+          <td>4/29 - 5/9</td>
+          <td><a href="https://rrd2019bootcamp.brownpapertickets.com" target="_new">Buy Tickets</a></td>
+        </tr>
+        <tr>
           <td>RRG vs Peninsula Roller Girls</td>
           <td>Home</td>
           <td>5/18</td>
