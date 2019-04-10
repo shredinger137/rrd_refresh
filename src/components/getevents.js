@@ -7,7 +7,7 @@ export default class GetEvents extends React.Component {
   state = {}
   componentDidMount() {
 
-    var calURL = "https://www.googleapis.com/calendar/v3/calendars/admin@rrgderby.org/events?key=AIzaSyBtX6neX1dXbSc9xHmJ3YbUDa45enDJVAA";
+    var calURL = "https://www.googleapis.com/calendar/v3/calendars/admin@rrgderby.org/events?key=";
     var request =  new XMLHttpRequest();
     var eventData, status = false;
     const setState = this.setState.bind(this);
