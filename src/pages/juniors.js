@@ -14,7 +14,7 @@ const Juniors = () => (
     <div className="content-block">
       <div className="row">
         <div className="col-sm-auto mx-auto text-center">
-          <h2 className="section-heading text-white">Juniors</h2> </div>
+          <h1 className="section-heading text-white">Juniors</h1> </div>
           <div className="col-sm-auto mx-auto text-left">
           <hr className="light my-4" />
           <p className="text-main mb-4">

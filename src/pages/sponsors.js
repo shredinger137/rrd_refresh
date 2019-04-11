@@ -15,7 +15,7 @@ const Sponsors = () => (
         <div className="container">
           <div className="row">
             <div className="col-sm-auto mx-auto text-center">
-              <h2 className="section-heading text-white">Our Sponsors</h2>
+              <h1 className="section-heading text-white">Our Sponsors</h1>
               <div className="col-sm-auto mx-auto text-left">
                 <hr className="light my-4" />
               </div>

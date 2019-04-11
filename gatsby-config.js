@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Resurrection Roller Derby`,
-    description: `Flat track Sonoma County roller derby league.`,
+    description: `Sonoma County flat track roller derby. Always recruiting new skaters, fans and volunteers.`,
     author: `@shredinger137`,
   },
   plugins: [

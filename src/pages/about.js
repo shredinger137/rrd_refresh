@@ -13,7 +13,7 @@ const About = () => (
       <div className="content-block">
         <div className="row">
           <div className="col-sm-auto mx-auto text-center">
-            <h2 className="section-heading text-white">Who We Are</h2>
+            <h1 className="section-heading text-white">Who We Are</h1>
           </div>
         </div>
         <div className="row">

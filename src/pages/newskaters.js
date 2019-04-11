@@ -14,10 +14,10 @@ const NewSkaters = () => (
   <div className="content-block">
     <div className="row">
       <div className="col-sm-auto mx-auto text-center">
-        <h2 className="section-heading text-white">Joining: New Skaters</h2> </div>
+        <h1 className="section-heading text-white">Joining: New Skaters</h1> </div>
         <div className="col-sm-auto mx-auto text-left">
         <hr className="light my-4" />
-        <p className="text-main mb-4"> 
+        <p className="text-main mb-4">
         Who Can Join?<br />
         Resurrection Roller Girls is open to everyone over the age of 18. We play women's flat track roller derby competitively, and our rec league is available to people of all gender identities.
         <br /><br />
