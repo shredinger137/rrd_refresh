@@ -57,7 +57,7 @@ getSectionRef = el => {
       <div className="content-block">
         <div className="row">
           <div className="col-sm-auto mx-auto text-center">
-            <h2 className="section-heading text-white">Events</h2>
+            <h1 className="section-heading text-white">Events</h1>
             <hr className="light my-4"></hr>
 
           <div className="content-partial text-left">
@@ -83,7 +83,7 @@ getSectionRef = el => {
       <div className="content-block">
         <div className="row">
           <div className="col-sm-auto mx-auto text-center">
-            <h2 className="section-heading text-white">Get Involved</h2> </div>
+            <h1 className="section-heading text-white">Get Involved</h1> </div>
             <div className="col-sm-auto mx-auto text-left">
             <hr className="light my-4"></hr>
             <p className="text-main mb-4">
