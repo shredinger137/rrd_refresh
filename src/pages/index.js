@@ -5,7 +5,6 @@ import '../css/rrderby.css'
 import SEO from "../components/seo"
 import Events from "../components/events"
 import { Link } from 'gatsby';
-import GetInvolved from "../components/getinvolved";
 
 
 export default class Home extends React.Component {
