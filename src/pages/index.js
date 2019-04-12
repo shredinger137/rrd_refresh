@@ -3,8 +3,8 @@ import Layout from "../components/layout"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 import SEO from "../components/seo"
-import Events from "../components/events"
 import { Link } from 'gatsby';
+import Calendar from "../components/calendar"
 
 
 export default class Home extends React.Component {
@@ -66,7 +66,7 @@ getSectionRef = el => {
           </div>
           <div className="content-partial2 ">
 
-            <Events></Events>
+            <Calendar></Calendar>
             <br />
               <p className="text-main text-left"><strong>Season pass tickets available now: <a href="https://www.brownpapertickets.com/event/4094543" target="_new">click here to purchase.</a></strong></p>
               <br /><br />
