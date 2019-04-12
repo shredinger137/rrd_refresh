@@ -93,7 +93,6 @@ getSectionRef = el => {
               <br></br><br></br>
             Volunteers: Playing Derby isn't the only way to get involved. Volunteers work behind the scenes to make this league possible. These include referees, non-skating officials (NSOs) and support staff of all kinds. We are always looking for volunteers to help with all of our projects - marketing, bout production, event coordination and more. Send us an email if you'd like to get involved at any level. We&#39;d love to hear from you!
             </p>
-            <GetInvolved />
 
           </div>
         </div>
