@@ -3,8 +3,9 @@ import Layout from "../components/layout"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
 import SEO from "../components/seo"
-import Calendar from "../components/calendar"
+import Events from "../components/events"
 import { Link } from 'gatsby';
+import GetInvolved from "../components/getinvolved";
 
 
 export default class Home extends React.Component {
@@ -37,7 +38,7 @@ getSectionRef = el => {
         <div className="row" >
           <div className="col-lg-10 mx-auto">
             <div className="callout" >
-              RESURRECTION ROLLER DERBY
+              RESURRECTION ROLLER GIRLS
               </div>
 
           </div>
@@ -66,7 +67,7 @@ getSectionRef = el => {
           </div>
           <div className="content-partial2 ">
 
-            <Calendar></Calendar>
+            <Events></Events>
             <br />
               <p className="text-main text-left"><strong>Season pass tickets available now: <a href="https://www.brownpapertickets.com/event/4094543" target="_new">click here to purchase.</a></strong></p>
               <br /><br />
@@ -93,7 +94,8 @@ getSectionRef = el => {
               <br></br><br></br>
             Volunteers: Playing Derby isn't the only way to get involved. Volunteers work behind the scenes to make this league possible. These include referees, non-skating officials (NSOs) and support staff of all kinds. We are always looking for volunteers to help with all of our projects - marketing, bout production, event coordination and more. Send us an email if you'd like to get involved at any level. We&#39;d love to hear from you!
             </p>
-            
+            <GetInvolved />
+
           </div>
         </div>
       </div>
