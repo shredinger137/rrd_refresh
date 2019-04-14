@@ -1,4 +1,4 @@
-Website for Resurrection Roller Derby. Created and administered by Casey Lewiston/Shredinger, admin@rrderby.org. See below for use notes.
+Website for Resurrection Roller Derby. Created and administered by Casey Lewiston/Shredinger, admin@rrderby.org. See below for use notes. This is built using Gatsby and a handful of dependencies, with data from Google Calendar API, Contentful and internal files.
 
 <h2>Calendar Module</h2>
 
@@ -20,12 +20,12 @@ Pushes to Master are automatically pulled to the server and built. This is visib
 
 Development plans include:
 
--Calendar: create and allow visibility of multiple categories (all events, training, etc.).
--Move page content to Contentful for easy editing.
--Create sub pages for 'get involved' and other sections that could use it, with sidebar navigation.
--Optimize images.
--Add transition effects, initial load followed by page routing.
--Add form type, such as for juniors sign up.
--Add suggestion box, technology requests and forms to members area.
+-Calendar: create and allow visibility of multiple categories (all events, training, etc.).<br>
+-Move page content to Contentful for easy editing.<br>
+-Create sub pages for 'get involved' and other sections that could use it, with sidebar navigation.<br>
+-Optimize images.<br>
+-Add transition effects, initial load followed by page routing.<br>
+-Add form type, such as for juniors sign up.<br>
+-Add suggestion box, technology requests and forms to members area.<br>
 
 There are various other design options in consideration. Any league members who want to help with web development are welcome to contribute their ideas.
