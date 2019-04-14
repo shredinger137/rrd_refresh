@@ -1,0 +1,26 @@
+.sponsors .sponsor_list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sponsors .sponsor_list li {
+  display: block;
+  margin: 0;
+  transition: all 0.5s ease-in-out;
+  width: 22%;
+}
+
+.sponsors .sponsor_list img {
+  max-width: 80%;
+}
+
+
+@media only screen and (max-width: 1000px){
+  .sponsors .sponsor_list li {
+    width: 48%
+  }
+
+}

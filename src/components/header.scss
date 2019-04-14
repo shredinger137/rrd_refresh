@@ -19,7 +19,7 @@
 
 .social {
   position: absolute;
-  left: 20vw;
+  left: 15vw;
   top: 20px;
   transition: all 1s ease-in-out;
   z-index: 501;
@@ -191,6 +191,13 @@ button.header-menu-toggle.is-clicked span::after {
 @media only screen and (max-width: 1230px) {
   .header {
     max-width: none;
+  }
+  .header-nav-wrap {
+    margin-right: 0px;
+  }
+  .social {
+    display: block;
+    left: 5vw;
   }
 }
 
