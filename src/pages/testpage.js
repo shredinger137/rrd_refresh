@@ -9,6 +9,7 @@ const TestPage = () => (
 
   <Layout>
     <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
+    <meta name="robots" content="noindex, nofollow" />
     <section id="sponsors" className="secondSection">
     <div className="content-block">
       <div className="container">

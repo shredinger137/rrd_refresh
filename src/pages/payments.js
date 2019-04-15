@@ -9,7 +9,8 @@ import SEO from "../components/seo"
 const Payments = () => (
 
   <Layout>
-    <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
+    <SEO title="Members" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
+    <meta name="robots" content="noindex, nofollow" />
     <section id="payments" className="secondSection">
   <div className="content-block">
     <div className="row">

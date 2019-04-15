@@ -8,7 +8,7 @@ import SponsorList from "../components/sponsors"
 const Sponsors = () => (
 
   <Layout>
-    <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
+    <SEO title="Our Sponsors" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports', 'sponsors', 'nonprofit']} />
       <section id="sponsors" className="secondSection">
       <div className="content-block">
         <div className="container">

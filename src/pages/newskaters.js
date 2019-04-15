@@ -9,7 +9,7 @@ import SEO from "../components/seo"
 const NewSkaters = () => (
 
   <Layout>
-    <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
+    <SEO title="Joining" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports', 'joining', 'starting roller derby']} />
     <section id="newskaters" className="secondSection">
   <div className="content-block">
     <div className="row">

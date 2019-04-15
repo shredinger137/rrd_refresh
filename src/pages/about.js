@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const About = () => (
 
   <Layout>
-    <SEO title="Resurrection Roller Derby" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
+    <SEO title="About Us" keywords={[`roller derby`, `sonoma county`, `rohnert park`, 'north bay', 'resurrection', 'sports']} />
     <section id="about" className="secondSection">
       <div className="content-block">
         <div className="row">
