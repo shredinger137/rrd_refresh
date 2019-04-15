@@ -29,10 +29,8 @@ class SponsorList extends React.Component {
       `   }
 
         render={data => (
-          <>
 
-
-                  <div className="sponsors">
+                <div className="sponsors">
                     <ul className="sponsor_list">
                       {data.allContentfulSponsors.edges.map(({ node }) => {
                         return (
@@ -44,14 +42,11 @@ class SponsorList extends React.Component {
                             <p key={node.name}>{node.name}</p>
 
                             </li>
-
                         );
                       })}
                     </ul>
                   </div>
 
-
-          </>
         )}
       />
     );

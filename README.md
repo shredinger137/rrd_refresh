@@ -27,5 +27,7 @@ Development plans include:
 -Add transition effects, initial load followed by page routing.<br>
 -Add form type, such as for juniors sign up.<br>
 -Add suggestion box, technology requests and forms to members area.<br>
+-Use CSS grid for layout choices, remove React-Bootstrap to improve performance.<br>
+-Possible skater photo gallery
 
 There are various other design options in consideration. Any league members who want to help with web development are welcome to contribute their ideas.
