@@ -19,10 +19,10 @@ const NewSkaters = () => (
         <hr className="light my-4" />
         <p className="text-main mb-4">
         Who Can Join?<br />
-        Resurrection Roller Girls is open to everyone over the age of 18. We play women's flat track roller derby competitively, and our rec league is available to people of all gender identities.
+        Resurrection Roller Derby is open to everyone over the age of 18. We play women's flat track roller derby competitively, and our rec league is available to people of all gender identities.
         <br /><br />
         Getting Started<br />
-        Getting started with Resurrection Roller Girls is easy. If you're ready to find your new favorite hobby, develop lifelong bonds and discover the best fitness program around, all you have to do is show up. RRG hosts Basics Night training every Tuesday at our home rink, Cal Skate in Rohnert Park. No experience is necessary and your first session is free. After that sessions are $10 each, or $30/month. If you aren't sure, feel free to stop in and see what this sport is all about. Even if you've never been on wheels before, we can get you bout ready in no time. Loaner gear is available for free. We also host intensive Boot Camp programs, usually during the summer and in January. Watch our Facebook page for details and the most up to date information.
+        Getting started with Resurrection Roller Derby is easy. If you're ready to find your new favorite hobby, develop lifelong bonds and discover the best fitness program around, all you have to do is show up. RRG hosts Basics Night training every Tuesday at our home rink, Cal Skate in Rohnert Park. No experience is necessary and your first session is free. After that sessions are $10 each, or $30/month. If you aren't sure, feel free to stop in and see what this sport is all about. Even if you've never been on wheels before, we can get you bout ready in no time. Loaner gear is available for free. We also host intensive Boot Camp programs, usually during the summer and in January. Watch our Facebook page for details and the most up to date information.
         <br /><br />
         Next Steps<br />
         When you've attended training and feel ready for it, you can try out for the league at any time. Tryouts are based on the requirements of the Women's Flat Track Derby Association (WFTDA). Passing the minimum skills test is required for playing full contact (which we know you're excited to do!).

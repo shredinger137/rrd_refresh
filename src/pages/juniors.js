@@ -18,7 +18,7 @@ const Juniors = () => (
           <div className="col-sm-auto mx-auto text-left">
           <hr className="light my-4" />
           <p className="text-main mb-4">
-            Resurrection Roller Girls is proud to host our Junior Roller Derby League, offering opportunities for skaters age 7 - 17. Anyone with a desire to learn is welcome to join, regardless of experience. Our mission is to develop athletic ability, teamwork skills and sportsmanship for Sonoma County youth. We offer the only junior derby program in the North Bay area. 10 week sessions will be offered throughout the year.
+            Resurrection Roller Derby is proud to host our Junior Roller Derby League, offering opportunities for skaters age 7 - 17. Anyone with a desire to learn is welcome to join, regardless of experience. Our mission is to develop athletic ability, teamwork skills and sportsmanship for Sonoma County youth. We offer the only junior derby program in the North Bay area. 10 week sessions will be offered throughout the year.
             <br /><br />
             <strong>Next session: April 2nd - June 4th<br /></strong>
             Pricing: $175 for new sign ups (includes jersey and insurance), $115 for returning skates (already have jersey and insurance). Scholarships to help with fees may be available- <a href="mailto:info@rrderby.org">contact us</a> for details.<br />
