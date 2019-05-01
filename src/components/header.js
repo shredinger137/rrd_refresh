@@ -18,7 +18,7 @@ class Header extends React.Component {
       <header className="header">
         <div className="row">
           <div className="social">
-            <a href="http://facebook.com/rrgderby" target="_new" rel="noopener noreferrer">
+            <a href="http://facebook.com/rrderby" target="_new" rel="noopener noreferrer">
               <img src={require('../img/facebook.png')} className="social-icon" alt="Facebook Icon"/>
             </a>
             <a href="http://instagram.com/resurrectionrollerderby" target="_new" rel="noopener noreferrer">
