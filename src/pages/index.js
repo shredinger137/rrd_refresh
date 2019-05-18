@@ -73,6 +73,17 @@ getSectionRef = el => {
           </div>
 
           </div>
+
+
+        </div>
+        <div className="row">
+          <div className="col-sm-auto mx-auto text-center">
+            <p className="text-main text-left" style={{padding: "20px"}}>RRD is partnering with The Myositis Association to raise funding for myositis awareness, research and treatment. Click <a href="https://www.myositis.org/get-involved/fundraise/campaigns/resurrection-roller-derby/?fbclid=IwAR3y1mFbt56Hi_Mpg1DmqbqRvemWdR8PcsA5ABk2MNxshau9YCAIEQmj2v8&fbclid=IwAR1-D90Ng4xWBsew1Mg8t3Szv8Vb7YileyGDgB0Z4gxwsV3FepTMHgTc6Lw" target="_new">here</a> to donate.</p>
+            <br />
+            <a href="https://www.myositis.org/get-involved/fundraise/campaigns/resurrection-roller-derby/?fbclid=IwAR3y1mFbt56Hi_Mpg1DmqbqRvemWdR8PcsA5ABk2MNxshau9YCAIEQmj2v8&fbclid=IwAR1-D90Ng4xWBsew1Mg8t3Szv8Vb7YileyGDgB0Z4gxwsV3FepTMHgTc6Lw" target="_new">
+              <img src={require('../img/awarenessmonth.jpg')} className="text-center banner" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
