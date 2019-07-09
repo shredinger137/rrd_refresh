@@ -73,3 +73,9 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+config.*
+*.conf
+*.config
+*config*
+emailconfig.php

@@ -2,7 +2,9 @@ import React from "react"
 import Layout from "../components/layout"
 import '../vendor/bootstrap/css/bootstrap.css'
 import '../css/rrderby.css'
-import SEO from "../components/seo"
+import SEO from '../components/seo'
+import Signup from '../components/juniorsSignup'
+
 
 
 
@@ -29,6 +31,7 @@ const Juniors = () => (
             <strong>The current session is now in progress. <a href="mailto:info@rrderby.org">Email us</a> if you'd like to get involved.</strong>
             <br /><br />
           </p>
+          <div><Signup /></div>
           </div>
           </div>
 
