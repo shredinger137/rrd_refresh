@@ -9,7 +9,7 @@ export default class Signup extends React.Component {
 render() {
   return (<div>
 
-<form method="post" action="sendmail.php">
+<form method="post" action="/api/sendmail.php">
 <div class="form-group row w-75 text-center">
         <label for="skatername" class="col-sm-3 col-form-label text-main text-left">Skater's Legal Name</label>
         <div class="col-sm-9">
