@@ -22,13 +22,13 @@ const Juniors = () => (
           <p className="text-main mb-4">
             Resurrection Roller Derby is proud to host our Junior Roller Derby League, offering opportunities for skaters age 7 - 17. Anyone with a desire to learn is welcome to join, regardless of experience. Our mission is to develop athletic ability, teamwork skills and sportsmanship for Sonoma County youth. We offer the only junior derby program in the North Bay area. 10 week sessions will be offered throughout the year.
             <br /><br />
-            <strong>Next session: April 2nd - June 4th<br /></strong>
-            Pricing: $175 for new sign ups (includes jersey and insurance), $115 for returning skates (already have jersey and insurance). Scholarships to help with fees may be available- <a href="mailto:info@rrderby.org">contact us</a> for details.<br />
+            <strong>Next session: September 10th - November 12th<br /></strong>
+            Pricing: $175 for new sign ups (includes jersey and insurance), $115 for returning skates (already have jersey and insurance).<br />
             <br />All practices take place at Cal Skate of Rohnert Park on Tuesdays, from 6:00pm to 7:30pm.
             <br /><br />
             Skates will be provided at no additional charge. Skaters will have to provide and wear all appropriate safety gear- that means mouth guards, helmets, knee pads, elbow pads and wrist guards. Equipment can be purchased at Cal Skate's pro shop. Contact us for details.
             <br /><br />
-            <strong>The current session is now in progress. <a href="mailto:info@rrderby.org">Email us</a> if you'd like to get involved.</strong>
+            <strong>Fill out the form below to sign up for the September session.</strong>
             <br /><br />
           </p>
           <div><Signup /></div>
