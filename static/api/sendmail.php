@@ -1,8 +1,14 @@
 
 <?php
 
+ header('Access-Control-Allow-Origin: *'); 
+ header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
  include 'emailconfig.php';
  require_once "Mail.php";
+
+ $rest_json = file_get_contents("php://input");
+ $_POST = json_decode($rest_json, true);
+
  $skaterName = $_POST["skaterName"];
  $age = $_POST["age"];
  $email_from = $_POST["email"];
@@ -36,14 +42,14 @@
  if ($skaterName){
  $mail = $smtp->send($to, $headers, $body);
 } else {
-  header("Location: https://rrderby.org/");
+  
 die();
 }
 
  if (PEAR::isError($mail)) {
  echo("<p>" . $mail->getMessage() . "</p>");
  } else {
-   header("Location: https://rrderby.org/postsignup.html");
+   
   die();
  }
  ?>

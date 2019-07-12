@@ -28,8 +28,6 @@ const Juniors = () => (
             <br /><br />
             Skates will be provided at no additional charge. Skaters will have to provide and wear all appropriate safety gear- that means mouth guards, helmets, knee pads, elbow pads and wrist guards. Equipment can be purchased at Cal Skate's pro shop. Contact us for details.
             <br /><br />
-            <strong>Fill out the form below to sign up for the September session.</strong>
-            <br /><br />
           </p>
           <div><Signup /></div>
           </div>
