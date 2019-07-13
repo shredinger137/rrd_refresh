@@ -60,7 +60,7 @@ const Payments = () => (
           <div className="col-lg-12 text-center">
 
           </div>
-        <div className="row"><p><br /><br /></p></div>
+        <div className="row"><p><br />Need to pay some other amount? <a href="https://www.paypal.me/resurrectionrg" target="_new">click here.</a><br /></p></div>
       </div>
     </div>
 </section>
