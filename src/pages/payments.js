@@ -48,7 +48,7 @@ const Payments = () => (
             </tr>
             <tr>
               <td>
-                <input type="text" name="os1" maxlength="200" />
+                <input type="text" name="os1" maxLength="200" />
               </td>
             </tr>
           </table>

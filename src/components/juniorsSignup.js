@@ -23,7 +23,7 @@ export default class Signup extends React.Component {
     console.log(data)
 
     var request= new XMLHttpRequest()
-    request.open("POST", "http://react.rrderby.org/api/sendmail.php", true)
+    request.open("POST", "/api/sendmail.php", true)
     request.setRequestHeader("Content-type", "application/json")
     request.send(str_json)
     console.log(str_json)
