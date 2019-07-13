@@ -48,14 +48,14 @@ render() {
 <div className="form-group row w-75 text-center">
         <label htmlFor="skatername" className="col-sm-3 col-form-label text-main text-left">Skater's Legal Name</label>
         <div className="col-sm-9">
-          <input type="text" className="form-control" id="skatername" name="skaterName" />
+          <input type="text" className="form-control" id="skatername" name="skaterName" required pattern="^[\w\-\( \) \? \s]+$"/>
         </div>
       </div>
       
       <div className="form-group row w-75 text-center">
         <label htmlFor="preferredname" className="col-sm-3 col-form-label text-main text-left">Skater's Nickname</label>
         <div className="col-sm-9">
-          <input type="text" className="form-control" id="preferredname" name="preferredName" />
+          <input type="text" className="form-control" id="preferredname" name="preferredName" pattern="^[\w\-\( \) \? \s]+$" />
         </div>
       </div>
       <div className="form-group row w-75 text-center">
@@ -74,13 +74,13 @@ render() {
       <div className="form-group row w-75 text-center">
         <label htmlFor="guardian" className="col-sm-3 col-form-label text-main text-left">Guardian Name(s)</label>
         <div className="col-sm-9">
-          <input type="text" className="form-control" id="guardian" name="guardian" />
+          <input type="text" className="form-control" id="guardian" name="guardian" required />
         </div>
       </div>
       <div className="form-group row w-75 text-center">
         <label htmlFor="email" className="col-sm-3 col-form-label text-main text-left">Contact Email</label>
         <div className="col-sm-9">
-          <input type="email" className="form-control" id="email" name="email" />
+          <input type="email" className="form-control" id="email" name="email" required />
         </div>
       </div>
       <div className="form-group row w-75 text-center">
