@@ -24,7 +24,7 @@ const Juniors = () => (
             <br /><br />
             <strong>Next session: September 10th - November 12th<br /></strong>
             Pricing: $175 for new sign ups (includes jersey and insurance), $115 for returning skates (already have jersey and insurance).<br />
-            <br />All practices take place at Cal Skate of Rohnert Park on Tuesdays, from 6:00pm to 7:30pm.
+            <br />All practices take place at Cal Skate of Rohnert Park on Tuesdays, from 6:00pm to 7:30pm. Membership in the league includes free entry to Cal Skate's Friday sessions, 3:00pm - 5:30pm, during the session period.
             <br /><br />
             Skates will be provided at no additional charge. Skaters will have to provide and wear all appropriate safety gear- that means mouth guards, helmets, knee pads, elbow pads and wrist guards. Equipment can be purchased at Cal Skate's pro shop. Contact us for details.
             <br /><br />
