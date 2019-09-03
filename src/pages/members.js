@@ -22,11 +22,16 @@ class Members extends React.Component {
 
       togglePopup(name) {  
         this.setState({  
-             showPopup: !this.state.showPopup 
+             showPopup: !this.state.showPopup,
+             skaterClicked: name
              
         });  
-        console.log("Clicked"); 
          } 
+    closePopup() {
+        this.setState({
+            showPopup: false
+        })
+    }
 
 render() {
  return (
@@ -50,6 +55,8 @@ render() {
          />
           {this.state.showPopup ?  
           <Popup  
+            skaterClicked={this.state.skaterClicked}
+            closePopup={this.closePopup.bind(this)}
           />   : null  
         } 
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import './sponsors.css'
-import Popup from './skaterPopup'
+
 
 class SkaterList extends React.Component {
 
