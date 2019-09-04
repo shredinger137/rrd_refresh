@@ -12,6 +12,7 @@
 		'echo $PWD',
 		'whoami',
 		'cp -r /var/www/html/gatsby/public/* /var/www/html/rrd-gatsby/',
+		'rm /var/www/html/rrd-gatsby/robots.txt',
 	);
 	// Run the commands for output
 	$output = '';
