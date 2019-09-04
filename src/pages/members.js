@@ -14,18 +14,24 @@ class Members extends React.Component {
         this.state = {
           skaterClicked: "Luna",
           showPopup: false,
+          content: "",
+          picture: "",
           
         };
     
         this.togglePopup = this.togglePopup.bind(this);
       }
 
-      togglePopup(name) {  
+      togglePopup(name, text, pictureURL) {  
         this.setState({  
-             showPopup: !this.state.showPopup,
-             skaterClicked: name
+             skaterClicked: name,
+             content: text,
+             picture: pictureURL,
+             showPopup: !this.state.showPopup
              
-        });  
+        });
+        console.log(pictureURL); 
+
          } 
     closePopup() {
         this.setState({
@@ -57,6 +63,8 @@ render() {
           <Popup  
             skaterClicked={this.state.skaterClicked}
             closePopup={this.closePopup.bind(this)}
+            content={this.state.content}
+            picture={this.state.picture}
           />   : null  
         } 
         </div>

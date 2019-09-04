@@ -9,7 +9,6 @@ class SkaterList extends React.Component {
 
   render() {
 
-    console.log("Skaters log: " + this.props.skaterClicked);
     return (
       <StaticQuery
         query={graphql`
@@ -41,7 +40,8 @@ class SkaterList extends React.Component {
                       {data.allContentfulMembers.edges.map(({ node }) => {
                         return ( 
                             <li key={node.name}>
-                            <img src={node.picture1.file.url} className="img-fluid text-center" alt={node.name} key={node.picture1.file.url} onClick={() => this.props.togglePopup(node.name)}/> 
+                            <img src={node.picture1.file.url} className="img-fluid text-center" alt={node.name} key={node.picture1.file.url} onClick={() => 
+                                this.props.togglePopup(node.name, node.content, node.picture1.file.url)}/> 
                             <br/>
                             <p key={node.name}>{node.name}</p>
 
