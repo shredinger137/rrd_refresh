@@ -1,7 +1,7 @@
 .popup {  
     position: fixed;  
-    width: 50%;  
-    height: 50%;  
+    width: 60%;  
+    height: 80%;  
     top: 0;  
     left: 0;  
     right: 0;  
@@ -33,3 +33,11 @@
     background-color: rgba(0,0,0, 0.6);
     text-align: center;  
   }
+
+  @media only screen and (max-width: 1000px){
+    .popup {
+      width: 90%
+    }
+  
+  }
+  
