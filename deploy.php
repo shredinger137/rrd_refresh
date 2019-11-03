@@ -35,6 +35,7 @@
 		'git submodule sync',
 		'git submodule update',
 		'git submodule status',
+		'npm install',
 		'gatsby build',
 	);
 
