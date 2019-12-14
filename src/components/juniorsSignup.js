@@ -42,7 +42,7 @@ render() {
 
 <form onSubmit={this.handleSubmit} id = "formDiv" style={{display: 'inline'}}>
   <p>
-  <strong>Fill out the form below to sign up for the September session.</strong>
+  <strong>Fill out the form below to sign up for the next session.</strong>
             <br /><br />    
   </p>
 <div className="form-group row w-75 text-center">
