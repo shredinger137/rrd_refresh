@@ -68,8 +68,7 @@ getSectionRef = el => {
 
             <Calendar></Calendar>
             <br />
-              <p className="text-main text-left"><strong>Season pass tickets available now: <a href="https://www.brownpapertickets.com/event/4094543" target="_new">click here to purchase.</a></strong></p>
-              <br /><br />
+             <br /><p><b>Join us at Boot Camp in January: <a href="https://www.facebook.com/events/2407443092905767/" target="_new">Facebook Event Page</a></b></p><br />
           </div>
 
           </div>
