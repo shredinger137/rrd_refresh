@@ -78,7 +78,7 @@ render() {
         </div>
       </div>
       <div className="form-group row w-75 text-center">
-        <label htmlFor="email" className="col-sm-3 col-form-label text-main text-left">Contact Email</label>
+        <label htmlFor="email" className="col-sm-3 col-form-label text-main text-left">Guardian's Email</label>
         <div className="col-sm-9">
           <input type="email" className="form-control" id="email" name="email" required type="email" />
         </div>
