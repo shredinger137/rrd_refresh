@@ -12,7 +12,7 @@ render() {
 
     <thead >
       <tr>
-        <td className="table-header">2019 Events</td>
+        <td className="table-header">Events</td>
         <td className="table-header">Location</td>
         <td className="table-header">Date</td>
         <td className="table-header"></td>

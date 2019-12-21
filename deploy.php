@@ -30,11 +30,12 @@
 		'whoami',
 		'git fetch',
 		'git reset --hard origin/master',
-		'git pull',
+		'git pull origin master',
 		'git status',
 		'git submodule sync',
 		'git submodule update',
 		'git submodule status',
+		'npm install',
 		'gatsby build',
 	);
 

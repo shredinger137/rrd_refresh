@@ -40,77 +40,9 @@ revealForm = () => {
 render() {
   return (<div>
 
-<form onSubmit={this.handleSubmit} id = "formDiv" style={{display: 'inline'}}>
-  <p>
-  <strong>Fill out the form below to sign up for the September session.</strong>
-            <br /><br />    
-  </p>
-<div className="form-group row w-75 text-center">
-        <label htmlFor="skatername" className="col-sm-3 col-form-label text-main text-left">Skater's Legal Name</label>
-        <div className="col-sm-9">
-          <input type="text" className="form-control" id="skatername" name="skaterName" required pattern="^[\w\-\( \) \? \s]+$"/>
-        </div>
-      </div>
-      
-      <div className="form-group row w-75 text-center">
-        <label htmlFor="preferredname" className="col-sm-3 col-form-label text-main text-left">Skater's Nickname</label>
-        <div className="col-sm-9">
-          <input type="text" className="form-control" id="preferredname" name="preferredName" pattern="^[\w\-\( \) \? \s]+$" />
-        </div>
-      </div>
-      <div className="form-group row w-75 text-center">
-        <label htmlFor="age" className="col-sm-3 col-form-label text-main text-left">Age</label>
-        <div className="col-sm-9">
-          <input type="text" className="form-control" id="age" name="age" />
-        </div>
-      </div>
-      <div className="form-group row w-75 text-center">
-      <label htmlFor="age" className="col-sm-3 col-form-label text-main text-left">Returning?</label>
-        <div className="col-sm-9 text-main text-left">
-          <input type="radio" name="returning" value="new" />New Skater<br />
-          <input type="radio" name="returning" value="returning" /> Returning Skater<br /><br />
-        </div>
-      </div>      
-      <div className="form-group row w-75 text-center">
-        <label htmlFor="guardian" className="col-sm-3 col-form-label text-main text-left">Guardian Name(s)</label>
-        <div className="col-sm-9">
-          <input type="text" className="form-control" id="guardian" name="guardian" required />
-        </div>
-      </div>
-      <div className="form-group row w-75 text-center">
-        <label htmlFor="email" className="col-sm-3 col-form-label text-main text-left">Contact Email</label>
-        <div className="col-sm-9">
-          <input type="email" className="form-control" id="email" name="email" required type="email" />
-        </div>
-      </div>
-      <div className="form-group row w-75 text-center">
-        <label htmlFor="phone" className="col-sm-3 col-form-label text-main text-left">Contact Phone</label>
-        <div className="col-sm-9">
-          <input type="text" className="form-control" id="phone" name="phone" />
-        </div>
-      </div>
-      <div className="form-group row w-75 text-center">
-        <label htmlFor="size" className="col-sm-3 col-form-label text-main text-left">Shirt Size</label>
-        <div className="col-sm-9">
-          <input type="text" className="form-control" id="size" name="size" />
-        </div>
-      </div>
-      <div className="form-group row w-75 text-center">
-        <label htmlFor="notes" className="col-sm-3 col-form-label text-main text-left">Anything else we should know?</label>
-        <div className="col-sm-9">
-          <input type="text" className="form-control" id="notes" name="notes" />
-        </div>
-      </div>
-      <div className="form-group row text-center">
-        <div className="col-sm-10">
-          <button className="btn btn-primary">Sign Up</button>
-          <br /><br />
-        </div>
-      </div>
-    </form>
-    <div id = "submitted" style={{display: 'none'}}>
+    <div id = "submitted">
       <p className="text-main mb-4">
-        <strong>Sign up has been received. We'll be in touch.</strong>
+        <strong>Signup form is temporarily disabled. Use the options below to pay, and please email <a href="mailto:info@rrderby.org">info@rrderby.org</a> with your contact information and skater's name.</strong>
           <br /><br />
            Please choose the correct option below and click or tap 'Buy Now' to pay your fees using PayPal. This should open in a new window.
            <br/><br/>
