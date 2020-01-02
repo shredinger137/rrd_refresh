@@ -106,7 +106,7 @@ export default class Calendar extends React.Component {
     <table className="events-table">
     <thead >
       <tr>
-        <td className="table-header">2019 Events</td>
+        <td className="table-header">2020 Events</td>
         <td className="table-header">Location</td>
         <td className="table-header">Date</td>
         <td className="table-header"></td>
