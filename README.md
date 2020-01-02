@@ -15,19 +15,3 @@ No other data is currently used from Contentful. This is planned.
 <h2>Deployment</h2>
 
 Pushes to Master are automatically pulled to the server and built. This is visible at react.rrderby.org, which should be treated as the alpha staging site. After a deployment starts, visit this URL to make sure everything works as expected. Once your happy with it, visit deploy.rrderby.org/launch.php to make the site live. In case of errors, an admin can do this manually.
-
-<h2>Roadmap</h2>
-
-Development plans include:
-
--Calendar: create and allow visibility of multiple categories (all events, training, etc.).<br>
--Move page content to Contentful for easy editing.<br>
--Create sub pages for 'get involved' and other sections that could use it, with sidebar navigation.<br>
--Optimize images.<br>
--Add transition effects, initial load followed by page routing.<br>
--Add form type, such as for juniors sign up.<br>
--Add suggestion box, technology requests and forms to members area.<br>
--Use CSS grid for layout choices, remove React-Bootstrap to improve performance.<br>
--Possible skater photo gallery
-
-There are various other design options in consideration. Any league members who want to help with web development are welcome to contribute their ideas.
