@@ -7,18 +7,30 @@
 
  $rest_json = file_get_contents("php://input");
  $_POST = json_decode($rest_json, true);
+ $data = (array)json_decode($rest_json);
+ $skaterName = $_POST["skaterName"];
+ $age = $_POST["age"];
+ $email_from = $_POST["email"];
+ $phone = $_POST["phone"];
+ $size = $_POST["size"];
+ $notes = $_POST["notes"];
+ $preferredName = $_POST["preferredName"];
+ $returning = $_POST["returning"];
+ $name = $_POST["guardian"];
+
+ $body = "";
+ foreach($data as $field => $response){
+     $body = $body . "\r\n" . $field . ": " . $response;
+ }
 
 
- $to = "info@rrgderby.org";
- $subject = "Juniors Sign Up";
- $body = '';
 
-foreach($_POST as $field => $value){
-    $body = $body . "\r\n" . $field . ": " . $value;
-}
+    //Create mail object, send
 
-function sendMail(){
-
+    require_once "Mail.php";
+    global $body;
+    $subject = "Juniors Sign Up";
+    include 'emailconfig.php';
     $headers = array ('From' => $from,
     'To' => $to,
     'Subject' => $subject);
@@ -26,19 +38,22 @@ function sendMail(){
     array ('host' => $host,
     'port' => $port,
     'auth' => true,
-    'username' => $emailusername,
-    'password' => $emailpassword));
-     
+    'username' => $emailUsername,
+    'password' => $emailPassword));
+    $mail = $smtp->send($to, $headers, $body);
     if (PEAR::isError($mail)) {
-    return "Error: " . $mail->getMessage();
+        echo("<p>" . $mail->getMessage() . "</p>");
+        } else {
+          
+      
+        } 
 
-    } else {
-     return true; 
-     die();
-    }
+        
 
-}
 
-sendMail();
+
+
+
+
 
  ?>

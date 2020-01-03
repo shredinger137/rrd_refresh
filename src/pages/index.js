@@ -61,8 +61,8 @@ getSectionRef = el => {
 
           <div className="content-partial text-left">
             <div className="text-main loud-text">Skate fast. Hit hard.</div>
-            <p className="text-main medium-loud">Sonoma County flat track roller derby.</p>
-            <p className="text-main">Our league of athletes, officials and volunteers call <a href="https://goo.gl/maps/PPMmMPAutmG2" target="_new">Cal Skate of Rohnert Park</a> home. That's where you'll find all of our home games and training events. We&#39;d love to have you join us.</p>
+            <p className="text-main medium-loud">Sonoma County roller derby.</p>
+            <p className="text-main">Our league of athletes, officials and volunteers call <a href="https://goo.gl/maps/PPMmMPAutmG2" target="_new">Cal Skate of Rohnert Park</a> home. That's where you'll find all of our home games and training events. We&#39;d love to have you join us. RRD welcomes youth and adult skaters from throughout Sonoma County.</p>
           </div>
           <div className="content-partial2 ">
 
