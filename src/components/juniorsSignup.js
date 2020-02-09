@@ -132,7 +132,7 @@ render() {
                 <td>
                   <select name="os0">
             	      <option value="New Skater">New Skater $185 USD</option>
-            	      <option value="Returning Skater">Returning Skater $155 USD</option>
+            	      <option value="Returning Skater">Returning Skater $115 USD</option>
                   </select>
                   </td> 
                 </tr>
