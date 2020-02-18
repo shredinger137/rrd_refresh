@@ -68,7 +68,7 @@ getSectionRef = el => {
 
             <Calendar></Calendar>
             <br />
-             <br /><p><b>Join us at Boot Camp in January: <a href="https://www.facebook.com/events/2407443092905767/" target="_new">Facebook Event Page</a></b></p><br />
+             <br /><p><b>Join us at our Dodgeball Tournament in March: <a href="https://www.facebook.com/events/849380492165547/" target="_new">Facebook Event Page</a></b></p><br />
           </div>
 
           </div>
