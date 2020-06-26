@@ -68,7 +68,7 @@ export default class SuggestionBox extends React.Component {
         </div>
         <div className="form-group row text-center">
           <div className="col-sm-10">
-            <button className="btn btn-primary">Sign Up</button>
+            <button className="btn btn-primary">Submit</button>
             <br /><br />
           </div>
         </div>
