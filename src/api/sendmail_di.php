@@ -17,18 +17,11 @@
  $preferredName = $_POST["preferredName"];
  $returning = $_POST["returning"];
  $name = $_POST["guardian"];
- $toEmail = "info@rrderby.org"; 
 
  $body = "";
  foreach($data as $field => $response){
      $body = $body . "\r\n" . $field . ": " . $response;
-     if($field == "source"){
-         if($response == "suggestions"){
-             $toEmail = "di@rrderby.org";
-         }
-     }
  }
-
 
 
 
@@ -39,7 +32,7 @@
     $subject = "Juniors Sign Up";
     include 'emailconfig.php';
     $headers = array ('From' => $from,
-    'To' => $toEmail,
+    'To' => $to,
     'Subject' => $subject);
     $smtp = Mail::factory('smtp',
     array ('host' => $host,
