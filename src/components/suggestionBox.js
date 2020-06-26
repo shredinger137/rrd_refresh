@@ -46,14 +46,14 @@ export default class SuggestionBox extends React.Component {
           Messages submitted by this form will be sent to the Diversity and Inclusivity Committee. Concerns, suggestions and other needs will be looked into by the committee or forwarded to an appropriate league representative.
         </p>
         <div className="form-group row w-75 text-center">
-          <label htmlFor="skatername" className="col-sm-3 col-form-label text-main text-left">Name:</label>
+          <label htmlFor="name" className="col-sm-3 col-form-label text-main text-left">Name:</label>
           <div className="col-sm-9">
             <input type="text" className="form-control" id="name" name="name" pattern="^[\w\-\( \) \? \s]+$" />
           </div>
         </div>
 
         <div className="form-group row w-75 text-center">
-          <label htmlFor="preferredname" className="col-sm-3 col-form-label text-main text-left">Email:</label>
+          <label htmlFor="email" className="col-sm-3 col-form-label text-main text-left">Email:</label>
           <div className="col-sm-9">
             <input type="text" className="form-control" id="email" name="email" type="email" />
           </div>
