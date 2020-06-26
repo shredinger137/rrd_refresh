@@ -48,14 +48,14 @@ export default class SuggestionBox extends React.Component {
         <div className="form-group row w-75 text-center">
           <label htmlFor="skatername" className="col-sm-3 col-form-label text-main text-left">Name:</label>
           <div className="col-sm-9">
-            <input type="text" className="form-control" id="name" name="skaterName" pattern="^[\w\-\( \) \? \s]+$" />
+            <input type="text" className="form-control" id="name" name="name" pattern="^[\w\-\( \) \? \s]+$" />
           </div>
         </div>
 
         <div className="form-group row w-75 text-center">
           <label htmlFor="preferredname" className="col-sm-3 col-form-label text-main text-left">Email:</label>
           <div className="col-sm-9">
-            <input type="text" className="form-control" id="email" name="preferredName" pattern="^[\w\-\( \) \? \s]+$" />
+            <input type="text" className="form-control" id="email" name="email" type="email" />
           </div>
         </div>
 
