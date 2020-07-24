@@ -48,7 +48,7 @@
     'auth' => true,
     'username' => $emailUsername,
     'password' => $emailPassword));
-    $mail = $smtp->send($to, $headers, $body);
+    $mail = $smtp->send($toEmail, $headers, $body);
     if (PEAR::isError($mail)) {
         echo("<p>" . $mail->getMessage() . "</p>");
         } else {
