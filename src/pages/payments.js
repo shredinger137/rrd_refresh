@@ -43,6 +43,9 @@ const Payments = () => (
       <div className="row">
         <div className="col-lg-12-text-center">
         <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLScQaFNUfZjEjISN8Xbs_dg-_5u2LKWYejfO74sOPAXK4UL0Dg/viewform?usp=sf_link" target="_new">Email Account Request Form</a></h3>
+        <br />
+        <h3><a href="https://docs.google.com/forms/d/e/1FAIpQLSd0IlsHpZlLZdm939sItUaWd0Fg1v12aEPmN47LqlLNTs7Msw/viewform?usp=sf_link" target="_new">Software and File Access Request Form</a></h3>
+        
        </div>
       </div>
       <br />
