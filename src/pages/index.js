@@ -69,6 +69,7 @@ getSectionRef = el => {
             <Calendar></Calendar>
             <br />
              <br />
+             <p className="text-main">All practices and events are postponed due to the ongoing COVID-19 pandemic.</p>
           </div>
 
           </div>
