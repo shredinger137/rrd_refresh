@@ -91,6 +91,8 @@ getSectionRef = el => {
             <div className="col-sm-auto mx-auto text-left">
             <hr className="light my-4"></hr>
             <p className="text-main mb-4">
+            <strong>All skate activities have been postponed due to COVID-19 concerns and the temporary closing of Cal Skate. We will update this page and our social media channels as our schedule develops.<br /></strong>
+            <br/>
 
             New Skaters: New skaters get involved by attending one of our regularly offered Boot Camps or our new skater training sessions. Skater Intake nights happen the first Tuesday of each month from March to October, starting at 7:30 pm. Training nights are available every Tuesday after that at 8pm. Your first one is free, so if you're curious please come visit us. Our skaters are always happy to talk. Loaner gear and skates are available at no charge. Just bring comfortable clothes, a water bottle and yourself.  <Link to="/newskaters/">Click here</Link> to learn more.
             <br></br><br></br>
