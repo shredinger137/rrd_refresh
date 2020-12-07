@@ -42,7 +42,7 @@ const About = () => (
             <p className="text-main mb-4">
             We take great pride in supporting our local community. Our contributions include volunteering, donating and advocating to spread awareness for important causes. At each of our games, a portion of proceeds are donated to a charitable cause. We also participate in blood drives, volunteer at local events and do what we can to make the community a better place.
             <br></br><br></br>
-            <strong>Resurrection Roller Girls' Charity Partners</strong><br></br></p>
+            <strong>Resurrection Roller Derby's Charity Partners</strong><br></br></p>
             <ul className="list-unstyled text-main mb-4">
               <li>Girls On Track</li>
               <li>The Living Room of Santa Rosa</li>
