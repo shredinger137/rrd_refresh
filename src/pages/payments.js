@@ -6,13 +6,6 @@ import SEO from "../components/seo"
 import DuesForm from '../components/duesform'
 import SuggestionBox from '../components/suggestionBox'
 
-/*
-      <div className="row">
-          <div className="col-lg-12 text-center">
-            <SuggestionBox />
-          </div>
-      </div>
-*/
 
 
 const Payments = () => (
@@ -41,7 +34,11 @@ const Payments = () => (
             </div>
           </div>
       </div>
-
+      <div className="row">
+          <div className="col-lg-12 text-center">
+            <SuggestionBox />
+          </div>
+      </div>
       <br />
       <div className="row">
         <div className="col-lg-12-text-center">

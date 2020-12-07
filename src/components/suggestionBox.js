@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import axios from "axios";
 
 
 export default class SuggestionBox extends React.Component {
@@ -9,26 +10,23 @@ export default class SuggestionBox extends React.Component {
     this.revealForm = this.revealForm.bind(this);
   }
 
-  handleSubmit(event) {
-    const form = event.target;
-    event.preventDefault();
-    const data = { source: "suggestions" };
-
-    for (let element of form.elements) {
-      if (element.tagName === 'BUTTON') { continue; }
-      data[element.name] = element.value;
-    }
-    var str_json = JSON.stringify(data)
-    console.log(data)
-
-    var request = new XMLHttpRequest()
-    request.open("POST", "/api/sendmail.php", true)
-    request.setRequestHeader("Content-type", "application/json")
-    request.send(str_json)
-    console.log(str_json)
-
-    document.getElementById("formDiv").style.display = "none";
-    document.getElementById("submitted").style.display = "inline";
+  handleSubmit(e) {
+    
+    e.preventDefault();
+    const form = e.target;
+    axios({
+      method: "post",
+      url: "https://getform.io/f/21e78bb9-d50f-4ad4-919d-b75f587e64b9",
+      data: new FormData(form)
+    })
+      .then(r => {
+        document.getElementById("formDiv").style.display = "none";
+        document.getElementById("submitted").style.display = "inline";
+      })
+      .catch(r => {
+        console.log(r);
+        document.getElementById("error").display = "inline";
+      });
   }
 
   revealForm = () => {
@@ -45,6 +43,7 @@ export default class SuggestionBox extends React.Component {
           <br /><br />
           Messages submitted by this form will be sent to the Diversity and Inclusivity Committee. Concerns, suggestions and other needs will be looked into by the committee or forwarded to an appropriate league representative.
         </p>
+        <span id="error" style={{display: "none"}}>An error occured.</span>
         <div className="form-group row w-75 text-center">
           <label htmlFor="name" className="col-sm-3 col-form-label text-main text-left">Name:</label>
           <div className="col-sm-9">
