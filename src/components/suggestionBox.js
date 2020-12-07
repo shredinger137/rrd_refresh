@@ -17,8 +17,7 @@ export default class SuggestionBox extends React.Component {
     axios({
       method: "post",
       url: "https://getform.io/f/21e78bb9-d50f-4ad4-919d-b75f587e64b9",
-      data: new FormData(form),
-      headers: {'Content-Type': 'multipart/form-data' }
+      data: new FormData(form)
     })
       .then(r => {
         console.log(r);
