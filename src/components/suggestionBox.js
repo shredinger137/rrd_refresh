@@ -20,6 +20,7 @@ export default class SuggestionBox extends React.Component {
       data: new FormData(form)
     })
       .then(r => {
+        console.log(r);
         document.getElementById("formDiv").style.display = "none";
         document.getElementById("submitted").style.display = "inline";
       })
